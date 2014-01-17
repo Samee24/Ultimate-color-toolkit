@@ -1,3 +1,7 @@
+#lang racket
+(require gigls/unsafe)
+
+
 (define complementer
   (lambda (rgb)
     (hsv->rgb (map inexact->exact(list (modulo(round(+ (rgb->hue rgb) 180))360) (rgb->saturation rgb) (rgb->value rgb))))))
@@ -48,8 +52,6 @@
 (image-set-pixel! canvas 1 3 3347214)
 (image-set-pixel! canvas 1 4 1640711)
 
-#lang racket
-(require gigls/unsafe)
 
 (define triad
   (lambda (rgb)
