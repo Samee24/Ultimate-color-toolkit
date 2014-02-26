@@ -28,4 +28,4 @@ Postconditions
       when the procedure is applied to disp's complement value, rgb is returned     
 
 
-Inspired by a Sam Rebelksy problem in CSC 151 at Grinnell College.
+Inspired by a Sam Rebelsky problem in CSC 151 at Grinnell College.
